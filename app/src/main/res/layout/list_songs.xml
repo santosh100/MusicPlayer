@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal"
+    android:paddingBottom="1.0dp"
+    android:scrollbarStyle="outsideOverlay">
+
+        <TextView
+            android:id="@+id/song_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Songs Name"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+
+</LinearLayout>

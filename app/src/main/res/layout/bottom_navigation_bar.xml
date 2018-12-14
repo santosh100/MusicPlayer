@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvSongName"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="CURRENT SONG NAME"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+        <Button
+            android:id="@+id/bPause"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:contentDescription="Play button"
+            android:background="@android:drawable/ic_media_pause"
+            android:backgroundTint="@android:color/background_dark"
+            android:layout_toRightOf="@+id/tvSongName"
+            android:visibility="gone"
+            />
+        <Button
+            android:id="@+id/bPlay"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tvSongName"
+            android:background="@android:drawable/ic_media_play"
+            android:backgroundTint="@android:color/background_dark"
+            android:contentDescription="Play button"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</LinearLayout>
